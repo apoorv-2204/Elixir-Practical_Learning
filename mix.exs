@@ -86,6 +86,7 @@ defmodule Livebook.MixProject do
   #
   defp deps do
     [
+      {:xandra, "~> 0.11"},
       {:phoenix, "~> 1.5"},
       {:phoenix_html, "~> 3.0"},
       {:phoenix_live_view, "~> 0.17.3"},
